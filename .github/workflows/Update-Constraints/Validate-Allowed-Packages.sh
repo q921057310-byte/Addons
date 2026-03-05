@@ -5,7 +5,8 @@
 
 set -euo pipefail
 
-file='Data/Python/Allowed-Packages'
+version="${1:?Missing version argument}"
+file="Data/Python/$version/Allowed-Packages"
 
 test -f "$file" || { echo "::error file=$file::File not found"; exit 1; }
 
