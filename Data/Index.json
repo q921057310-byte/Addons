@@ -350,6 +350,15 @@
       "curated": true
     }
   ],
+  "Cubinets": [
+    {
+      "repository": "https://github.com/foreachidea/Cubinets",
+      "git_ref": "main",
+      "branch_display_name": "Latest",
+      "zip_url": "https://github.com/foreachidea/Cubinets/archive/refs/heads/main.zip",
+      "curated": false
+    }
+  ],
   "cura_engine": [
     {
       "repository": "https://github.com/cblt2l/FreeCAD-CuraEngine-Plugin",
