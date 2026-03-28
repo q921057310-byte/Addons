@@ -943,15 +943,6 @@
       "curated": true
     }
   ],
-  "NavigationIndicator": [
-    {
-      "repository": "https://github.com/triplus/NavigationIndicator",
-      "git_ref": "master",
-      "branch_display_name": "master",
-      "zip_url": "https://github.com/triplus/NavigationIndicator/archive/refs/heads/master.zip",
-      "curated": true
-    }
-  ],
   "NikraDAP": [
     {
       "repository": "https://github.com/NikraDAP/FreeCAD-NikraDAP",
