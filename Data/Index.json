@@ -141,15 +141,6 @@
       "curated": true
     }
   ],
-  "Autoload": [
-    {
-      "repository": "https://github.com/triplus/Autoload",
-      "git_ref": "master",
-      "branch_display_name": "master",
-      "zip_url": "https://github.com/triplus/Autoload/archive/refs/heads/master.zip",
-      "curated": true
-    }
-  ],
   "BCFPlugin": [
     {
       "repository": "https://github.com/podestplatz/BCF-Plugin-FreeCAD",
