@@ -1,7 +1,4 @@
 
-> [!CAUTION]
-> Work-In-Progress Do Not Submit Issues / Pull Requests!
-
 <br/>
 
 <div align = center >
