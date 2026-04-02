@@ -5,6 +5,8 @@
 
 set -euo pipefail
 
+py_tag=$(python -c 'import sys; print(f"{sys.version_info.major}.{sys.version_info.minor}")')
+
 python -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
@@ -15,7 +17,7 @@ awk '
     /^[[:space:]]*$/ { next }
     /^[[:space:]]*#/ { next }
     { gsub(/^[[:space:]]+|[[:space:]]+$/,"",$0); print tolower($0) }
-' Data/Python/${py_tag}/Allowed-Packages > .allowed_names
+' "Data/Python/${py_tag}/Allowed-Packages" > .allowed_names
 
 IFS=',' read -ra NATIVE <<<"${ALLOW_SDIST_NATIVE:-}"
 
@@ -52,10 +54,6 @@ pip install \
     "${NO_BINARY_ARGS[@]}" \
     --index-url https://pypi.org/simple \
     -r "$PRUNED"
-
-py_tag=$(python -c 'import sys; print(f"{sys.version_info.major}.{sys.version_info.minor}")')
-
-mkdir -p constraints
 
 out_basename="constraints.txt"
 out_path="Data/Python/${py_tag}/${out_basename}"
