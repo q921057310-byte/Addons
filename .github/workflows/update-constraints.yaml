@@ -26,6 +26,9 @@ on:
             -   'Data/Python/*/Allowed-Packages'
             -   'Data/Python/*/constraints.txt'
 
+    schedule:
+        -   cron : '0 6 * * 1'
+
     workflow_dispatch:
 
 ################################################################################
@@ -95,7 +98,7 @@ jobs:
                 #   versions of Python - provide a constraints each.
                 #
 
-                py : [ '3.11' , '3.12' , '3.13' , '3.14' ]
+                py : [ '3.10' , '3.11' , '3.12' , '3.13' , '3.14' ]
 
         steps:
 
@@ -243,7 +246,7 @@ jobs:
         runs-on : ubuntu-latest
         needs : Build
         name : Create PR
-        if : ${{ github.event_name == 'workflow_dispatch' }}
+        if : ${{ github.event_name != 'pull_request_target' }}
 
         steps:
 

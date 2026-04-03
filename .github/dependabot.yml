@@ -2,7 +2,8 @@
 # SPDX-FileNotice: Part of the FreeCAD project.
 
 #
-#   Configure to scan the Python constraints files.
+#   Python dependency updates are handled by the Update Constraints
+#   workflow on a weekly schedule, which resolves per Python version.
 #
 
 version : 2
@@ -14,14 +15,3 @@ updates:
 
         schedule:
             interval : 'weekly'
-
-    -   package-ecosystem : 'pip'
-        directory : '/Data/Python/'
-
-        schedule:
-            interval : 'weekly'
-
-        groups:
-            all-deps:
-                patterns:
-                    - '*'
