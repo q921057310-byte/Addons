@@ -100,7 +100,7 @@ jobs:
         steps:
 
             -   name : Checkout Pull Request
-                uses : actions/checkout@v6
+                uses : actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
                 with :
 
                     repository : ${{ github.event.pull_request.head.repo.full_name }}
@@ -130,7 +130,7 @@ jobs:
                 # https://github.com/marketplace/actions/setup-python
 
             -   name : Setup Python ${{ matrix.py }}
-                uses : actions/setup-python@v6
+                uses : actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6
                 with :
 
                     python-version : ${{ matrix.py }}
@@ -147,7 +147,7 @@ jobs:
                 # https://github.com/marketplace/actions/upload-a-build-artifact
 
             -   name : Upload Artifacts
-                uses : actions/upload-artifact@v6
+                uses : actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6
                 with :
 
                     # constraints.txt
@@ -172,7 +172,7 @@ jobs:
                 # https://github.com/marketplace/actions/checkout
 
             -   name : Checkout Pull Request
-                uses : actions/checkout@v6
+                uses : actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
                 with :
 
                     repository : ${{ github.event.pull_request.head.repo.full_name }}
@@ -188,7 +188,7 @@ jobs:
                 # https://github.com/marketplace/actions/download-a-build-artifact
 
             -   name : Download Artifacts
-                uses : actions/download-artifact@v6
+                uses : actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53 # v6
                 with :
 
                     merge-multiple : true
@@ -212,7 +212,7 @@ jobs:
                 # https://github.com/marketplace/actions/github-script
 
             -   name : Comment Pull Request
-                uses : actions/github-script@v8
+                uses : actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8
                 if : ${{ success() }}
 
                 with:

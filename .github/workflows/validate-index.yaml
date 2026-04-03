@@ -36,7 +36,7 @@ jobs:
                 # https://github.com/marketplace/actions/checkout
 
             -   name : Checkout Repository
-                uses : actions/checkout@v6
+                uses : actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
                 with :
 
                     submodules : false
@@ -49,7 +49,7 @@ jobs:
                 # https://github.com/marketplace/actions/json-schema-validate
 
             -   name : Validate Format
-                uses : dsanders11/json-schema-validate-action@v1.4.0
+                uses : dsanders11/json-schema-validate-action@79b2d95a446a0d786f7f244ae7764f8370ff3657 # v1.4.0
                 with :
 
                     all-errors : true
