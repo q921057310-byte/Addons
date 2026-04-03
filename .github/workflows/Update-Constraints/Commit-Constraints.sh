@@ -5,7 +5,7 @@
 
 set -euo pipefail
 
-git add Data/Python/Constraints/constraints/*.txt || true
+git add Data/Python/*/constraints.txt || true
 
 if git diff --staged --quiet; then
     echo "No changes to constraints files; nothing to commit."
