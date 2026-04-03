@@ -290,7 +290,7 @@ jobs:
                         exit 0
                     fi
 
-                    branch="update-constraints/$(date +%Y-%m-%d)"
+                    branch="update-constraints/$(date +%Y-%m-%d-%H%M%S)"
 
                     git config user.name  "freecad-constraints-bot"
                     git config user.email "freecad-constraints-bot@users.noreply.github.com"
