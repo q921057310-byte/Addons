@@ -89,7 +89,7 @@ pyvista
 qtpy
 qtrangeslider
 requests
-rhino3dm
+# rhino3dm  Not yet available for Python 3.14
 scikit-image
 scikit-learn
 scikit-sparse
