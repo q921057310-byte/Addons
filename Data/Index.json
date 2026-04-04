@@ -76,15 +76,6 @@
       "curated": true
     }
   ],
-  "animation": [
-    {
-      "repository": "https://github.com/microelly2/Animation",
-      "git_ref": "master",
-      "branch_display_name": "master",
-      "zip_url": "https://github.com/microelly2/Animation/archive/refs/heads/master.zip",
-      "curated": true
-    }
-  ],
   "AnimationFreeCAD": [
     {
       "repository": "https://github.com/QuentinTournier40/AnimationFreeCAD",
