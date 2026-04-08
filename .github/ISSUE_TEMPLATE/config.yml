@@ -3,6 +3,10 @@ blank_issues_enabled : false
 
 contact_links:
 
+-   about : Submit your addon for review.
+    name : 📤 𝗣𝘂𝗯𝗹𝗶𝘀𝗵
+    url : https://freecad.github.io/Addon-Academy/Guides/Publishing
+
 -   about : Join the community on our Discord.
     name : 💬 𝗗𝗶𝘀𝗰𝗼𝗿𝗱
     url : https://discord.gg/U52CaAQ7j3
@@ -18,8 +22,3 @@ contact_links:
 -   about : Learn about addons in our academy.
     name : 🎓 𝗔𝗰𝗮𝗱𝗲𝗺𝘆
     url : https://github.com/FreeCAD/Addon-Academy
-
--   about : Submit your addon for review.
-    name : 📤 𝗣𝘂𝗯𝗹𝗶𝘀𝗵
-    url : https://freecad.github.io/Addon-Academy/Guides/Publishing
-
