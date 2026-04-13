@@ -733,15 +733,6 @@
       "curated": true
     }
   ],
-  "kerkythea": [
-    {
-      "repository": "https://github.com/marmni/FreeCAD-Kerkythea",
-      "git_ref": "master",
-      "branch_display_name": "master",
-      "zip_url": "https://github.com/marmni/FreeCAD-Kerkythea/archive/refs/heads/master.zip",
-      "curated": true
-    }
-  ],
   "kicadStepUpMod": [
     {
       "repository": "https://github.com/easyw/kicadStepUpMod",
