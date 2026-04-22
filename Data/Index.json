@@ -31,6 +31,15 @@
       "curated": true
     }
   ],
+  "AIGenFurniture": [
+    {
+      "repository": "https://github.com/yelloish6/AIGenFurniture-freecad-workbench",
+      "git_ref": "main",
+      "branch_display_name": "Latest",
+      "zip_url": "https://github.com/yelloish6/AIGenFurniture-freecad-workbench/archive/refs/heads/main.zip",
+      "curated": false
+    }
+  ],
   "addFC": [
     {
       "repository": "https://github.com/GS90/addFC",
