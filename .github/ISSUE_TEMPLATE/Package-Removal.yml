@@ -4,7 +4,6 @@ name : '📦 𝗣𝗮𝗰𝗸𝗮𝗴𝗲 - 𝗥𝗲𝗺𝗼𝘃𝗮𝗹'
 description : 'Remove an existing Python package.'
 title : '‹Package›'
 
-assignees : [ 'PhoneDroid' ]
 labels : [ '📦 𝗣𝗮𝗰𝗸𝗮𝗴𝗲' , '-' ]
 
 body:
