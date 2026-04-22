@@ -249,6 +249,15 @@
       "curated": true
     }
   ],
+  "Catppuccin": [
+    {
+      "repository": "https://github.com/cnvuls/CatppuccinTheme",
+      "git_ref": "main",
+      "branch_display_name": "Latest",
+      "zip_url": "https://github.com/cnvuls/CatppuccinTheme/archive/refs/heads/main.zip",
+      "curated": true
+    }
+  ],
   "CfdOF": [
     {
       "repository": "https://github.com/jaheyns/CfdOF",
