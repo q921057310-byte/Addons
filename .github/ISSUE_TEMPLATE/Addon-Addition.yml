@@ -2,11 +2,23 @@
 name : '💿 𝗔𝗱𝗱𝗼𝗻 - 𝗔𝗱𝗱𝗶𝘁𝗶𝗼𝗻'
 
 description : 'Submit your addon for review.'
-title : 'Addon'
+title : '‹Addon›'
 
 labels : [ '💿 𝗔𝗱𝗱𝗼𝗻' , '+' ]
 
 body:
+
+    -   type : 'markdown'
+
+        attributes:
+            value : '<!-- Spacer -->'
+
+    -   type : 'markdown'
+
+        attributes:
+            value : |
+                > [!IMPORTANT]
+                > Make sure you have read and followed the [Publishing Guide](https://freecad.github.io/Addon-Academy/Guides/Publishing).
 
     -   type : 'markdown'
 
