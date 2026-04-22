@@ -4,7 +4,7 @@ name : '📦 𝗣𝗮𝗰𝗸𝗮𝗴𝗲 - 𝗔𝗱𝗱𝗶𝘁𝗶𝗼𝗻'
 description : 'Request the addition of a Python package.'
 title : '‹Package›'
 
-labels : [ '📦 𝗣𝗮𝗰𝗸𝗮𝗴𝗲' , '+' ]
+labels : [ '📦 𝗣𝗮𝗰𝗸𝗮𝗴𝗲' , '+' ]
 
 body:
 
