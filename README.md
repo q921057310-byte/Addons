@@ -1,14 +1,9 @@
-
-<br/>
-
 <div align = center >
 
 # Addon Index
 
 This repository contains the metadata of the  
 official addon index and related resources.
-
-<br/>
 
 [![Button Documentation]][Documentation]
 
@@ -19,16 +14,16 @@ official addon index and related resources.
 The following metadata is stored:
 
 -   [`Index.json`][Index]   
-    List of known addons.
+    List of known addons, controls the Addon display in the built-in Addon Manager. See [the Index documentation][Documentation] for information on adding your Addon to this list.
 
 -   [`Python`][Python]  
-    Version specific metadata.
+    Version-specific metadata.
 
     -   [`Allowed-Packages`][Packages]  
-        List of allowed Python packages.
+        List of allowed Python packages. To request that a package be added, [submit an issue here][Request].
 
     -   [`constraints.txt`][Constraints]   
-        Constraints of the Python packages.
+        Constraints of the Python packages (auto-generated from `Allowed-Packages`), applied by the Addon Manager during dependency resolution to prevent Addon requirements conflicts.
 
     -   [`pyproject.toml`][Project]  
         Python environment configuration.
@@ -40,7 +35,8 @@ The following metadata is stored:
 [Project]: ./Data/Python/3.14/pyproject.toml
 [Python]: ./Data/Python
 [Index]: ./Data/Index.json
-
+[Documentation]: https://freecad.github.io/Addon-Academy/Guides/Publishing/Indexed
+[Request]: https://github.com/FreeCAD/Addons/issues
 <!----------------------------------------------------------------------------->
 
 [Button Documentation]: https://img.shields.io/badge/Documentation-3b8ad9?style=for-the-badge&logoColor=white&logo=buffer
