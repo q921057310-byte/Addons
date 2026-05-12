@@ -392,6 +392,15 @@
       "curated": false
     }
   ],
+  "Detessellate": [
+    {
+      "repository": "https://github.com/DesignWeaver3D/Detessellate",
+      "git_ref": "main",
+      "branch_display_name": "main",
+      "zip_url": "https://github.com/DesignWeaver3D/Detessellate/archive/refs/heads/main.zip",
+      "curated": false
+    }
+  ],
   "DFM" : [
     {
       "repository": "https://github.com/ryankembrey/FreeCAD-DFM-Workbench",
