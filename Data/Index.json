@@ -934,6 +934,15 @@
       "curated": true
     }
   ],
+  "NordicFC": [
+    {
+      "repository": "https://github.com/erroronline1/NordicFC",
+      "git_ref": "main",
+      "branch_display_name": "main",
+      "zip_url": "https://github.com/erroronline1/NordicFC/archive/refs/heads/main.zip",
+      "curated": false
+    }
+  ],
   "nurbs": [
     {
       "repository": "https://github.com/microelly2/freecad-nurbs",
